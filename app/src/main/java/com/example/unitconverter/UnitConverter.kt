@@ -119,19 +119,19 @@ fun UnitConverter(){
                     DropdownMenuItem(text = { Text(text = "Meters")}, onClick = {
                         oExpanded = false
                         outputUnit = "Meters"
-                        oConversionFactor.value = 0.01
+                        oConversionFactor.value = 1.0
                         convertTheUnits()
                     })
                     DropdownMenuItem(text = { Text(text = "Feet")}, onClick = {
                         oExpanded = false
                         outputUnit = "Feet"
-                        oConversionFactor.value = 0.01
+                        oConversionFactor.value = 0.3048
                         convertTheUnits()
                     })
                     DropdownMenuItem(text = { Text(text = "Millimeters")}, onClick = {
                         oExpanded = false
                         outputUnit = "Millimeters"
-                        oConversionFactor.value = 0.01
+                        oConversionFactor.value = 0.001
                         convertTheUnits()
                     })
                 }
