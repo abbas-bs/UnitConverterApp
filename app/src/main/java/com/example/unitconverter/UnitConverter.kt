@@ -141,10 +141,3 @@ fun UnitConverter(){
             style = MaterialTheme.typography.titleMedium)
     }
 }
-
-
-@Preview(showBackground = true)
-@Composable
-fun UnitConverterPreview(){
-    UnitConverter()
-}
